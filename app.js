@@ -2,6 +2,7 @@ const express = require('express')
 const port =  3000
 const fetch = require('node-fetch');
 const app = express();
+const hostname = '0.0.0.0';
 require('dotenv').config()
 app.use(express.json())
 app.use(express.urlencoded());
